@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w-style {
+    width: 50%;
+}
+
+/* top section start here  */
+.top-banner {
+    margin-bottom: 90px;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.top-inner {
+    display: flex;
+    padding: 0 5px;
+    margin-top: 50px;
+}
+
+.top-content {
+    width: 50%;
+}
+
+#edit {
+    padding-top: 100px;
+}
+
+.top-inner h1 {
+    font-size: 50px;
+    padding: 50px 5px 0 0;
+    color: rgb(63, 59, 59);
+}
+
+.top-banner span {
+    color: orange;
+}
+
+.top-content p {
+    line-height: 1.3;
+    color: gray;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.btn, .form-section form input[type="Submit"]{
+    background-image: linear-gradient(90deg, rgb(230, 160, 69) 0%, rgb(243, 47, 33) 100%);
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.btn:hover, .form-section form input[type="Submit"]:hover {
+    background-image: linear-gradient(90deg, rgb(243, 47, 33) 0%, rgb(230, 160, 69) 100%);
+}
+
+.top-content img {
+    width: 670px;
+}
+
+/* about section starts here  */
+.about-me {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.my-image img {
+    width: 268px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    padding-top: 120px;
+    color: rgb(99, 99, 99);
+}
+
+.about-content p {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 60px;
+    color: #7c7878;
+}
+
+/* recipie area  */
+.recipie-area {
+    margin: 40px 0;
+}
+
+.recipie-title h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #7e7575;
+    margin-bottom: 10px;
+}
+
+.recipie-title p {
+    text-align: center;
+    padding: 0 300px;
+    color: #5e5a5a;
+    line-height: 1.2;
+}
+
+.recipie-box {
+    display: flex;
+    margin: 50px 50px;
+}
+
+.recipie-width {
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+    border: 1px solid #dfcfcf;
+    transition: 0.3s;
+}
+
+.recipie-width:hover {
+    box-shadow: 10px 10px 20px rgb(218, 209, 209);
+}
+
+img {
+    width: 400px;
+}
+
+.recipie-width h2 {
+    text-align: left;
+    padding-left: 10px;
+    color: #6c6767;
+}
+
+.recipie-width p {
+    text-align: left;
+    padding: 0 50px 0 10px;
+    color: #5e5a5a;
+    line-height: 1.2;
+}
+
+/* counter section  */
+.counter-main ul {
+    list-style: none;
+    display: flex;
+    border: 1px solid #e1bfbf;
+    margin: 50px 50px 100px 50px;
+    padding: 70px;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgb(221, 221, 221);
+    border-radius: 15px;
+}
+
+.counter-main ul li {
+    padding: 0 50px;
+}
+
+.counter-main ul li span {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+span.counter {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+span.counter-text {
+    font-size: 16px;
+    color: #6c6868;
+}
+
+/* contact section  */
+.contact-area {
+    text-align: center;
+    background: #edecec;
+    padding: 50px 0;
+}
+.form-section {
+    padding: 20px 100px;
+}
+
+.form-section form input {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    background: #ffd3b6;
+    color: #000;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.form-section form input:focus-visible {
+    outline: 0;
+}
+
+input.address {
+    width: 845px !important;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    border: none;
+    background: #ffd3b6;
+    border-radius: 5px;
+    width: 865px;
+}
+
+textarea:focus-visible {
+    outline: 0;
+}
+
+
+/* contact title before after  */
+
+.section-title h2 {
+    position: relative;
+}
+
+.section-title h2::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -10px;
+    right: 50%;
+    height: 2px;
+    width: 70px;
+    background: #fc7d42;
+    transform: translate(-50%, -50%);
+}
+.about-inner h2::after {
+    left: 0;
+    transform: inherit;
+}
+
