@@ -52,7 +52,7 @@ h6 {
     color: rgb(63, 59, 59);
 }
 
-.top-banner span {
+.color-change{
     color: orange;
 }
 
@@ -261,4 +261,14 @@ textarea:focus-visible {
     left: 0;
     transform: inherit;
 }
-
+/* footer  */
+footer {
+    text-align: center;
+    padding: 30px 0;
+}
+footer h3 {
+    font-size: 25px;
+}
+footer p {
+    color: #999797;
+}
